@@ -11,6 +11,12 @@
   *word-spacing: -0.43em;
 }
 
+.grid img {
+  width: 100%;
+  margin: 0 auto;
+
+}
+
 .grid-bottom {
   -webkit-align-items: flex-end;
   -ms-align-items: flex-end;
