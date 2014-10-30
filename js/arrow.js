@@ -1,4 +1,4 @@
-  var aboutDesc = document.querySelector('.about-desc');
+  var imgDescription = document.querySelector('.img-description');
 
   document.querySelector('.down-arrow').addEventListener('click', function(e){
   e.preventDefault();
