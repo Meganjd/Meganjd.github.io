@@ -101,7 +101,11 @@ body {
 	text-align: center;
 }
 
-.about-desc[data-state="expanded"] {
+.img-description {
+	text-align: center;
+}
+
+.img-description[data-state="expanded"] {
 	display: block;	
 }
 
