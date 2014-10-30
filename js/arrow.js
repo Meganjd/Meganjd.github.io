@@ -1,5 +1,5 @@
 var downArrow = document.querySelectorAll('.down-arrow');
-var imgDesc = document.querySelectorAll('.img-desc');
+var imgDescription = document.querySelectorAll('.img-description');
 
 for (var i=0;i<downArrow.length;i++){
     downArrow.item(i).addEventListener("click", myFunction);
@@ -8,10 +8,10 @@ for (var i=0;i<downArrow.length;i++){
 
 function myFunction() {
     var num = this.getAttribute('data-num');
-    if (imgDesc.item(num).getAttribute('data-state') == 'expanded') {
-        imgDesc.item(num).setAttribute('data-state', 'collapsed');
+    if (imgDescription.item(num).getAttribute('data-state') == 'expanded') {
+        imgDescription.item(num).setAttribute('data-state', 'collapsed');
     }else{
-        imgDesc.item(num).setAttribute('data-state', 'expanded');
+        imgDescription.item(num).setAttribute('data-state', 'expanded');
     }
     
 }
