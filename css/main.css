@@ -91,6 +91,15 @@ html{
 	text-align: center;
 }
 
+.about-desc[data-state="expanded"] {
+	display: block;	
+}
+
+.down-arrow{
+	height: 35px;
+	width: 35px;
+}
+
 body {
 	background-color: #c0c0c0;
 	margin: 0;
