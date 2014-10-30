@@ -103,6 +103,7 @@ body {
 
 .img-description {
 	text-align: center;
+	display: none;
 }
 
 .img-description[data-state="expanded"] {
