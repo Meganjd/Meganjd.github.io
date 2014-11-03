@@ -10,8 +10,12 @@ function myFunction() {
     var num = this.getAttribute('data-num');
     if (imgDescription.item(num).getAttribute('data-state') == 'expanded') {
         imgDescription.item(num).setAttribute('data-state', 'collapsed');
+		this.src='images/dummy.png';
+		this.src='images/down-arrow.svg';
     }else{
         imgDescription.item(num).setAttribute('data-state', 'expanded');
+		this.src='images/dummy.png'
+		this.src='images/up-arrow.svg'
     }
     
 }
