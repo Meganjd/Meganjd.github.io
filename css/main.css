@@ -10,6 +10,11 @@ html{
 	-webkit-text-size-adjust: 100%;
 	-o-text-size-adjust: 100%;
 	text-size-adjust: 100%;
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
 }
 
 
@@ -21,6 +26,21 @@ body{
 
 li{
 	list-style-type: none;
+}
+
+h2 {
+	text-align: center;
+}
+
+header {
+	padding-bottom: 5rem;
+}
+
+.nav-bar {
+	position: absolute;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.5);
+	z-index:4; 
 }
 
 .hide-text {
@@ -39,7 +59,7 @@ li{
 	height: 35px;
 	width: 35px;
 	background: url('../images/nav-button.svg') no-repeat center top;
-	z-index: 1;
+	z-index: 5;
 }
 
 .nav a,
@@ -60,6 +80,10 @@ li{
 
 }
 
+.nav ul {
+	padding: 50px 0 0 0;
+}
+
 .nav-top{
 	display:none;	
 
@@ -69,10 +93,9 @@ li{
 	display: block;	
 }
 
-
 .logo {
-	background-image: url(http://placehold.it/700x350);
-	padding-bottom: 50%;
+	background-image: url(http://placehold.it/700x500);
+	padding-bottom: 71.4%;
 	background-size: cover;
 	position: relative;
 }
@@ -83,18 +106,16 @@ li{
 	top: 50%;
     left: 50%;
     margin-right: -50%;
+    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
  
 }
 
+
 .self-portrait {
 	display: block;
     margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 10px;
-    height: 150px;
-    width: 150px;
-	
+    margin-right: auto
 }
 
 .hello {
@@ -104,7 +125,9 @@ li{
 
 .about-desc {
 	text-align: center;
+	padding: 10px;
 }
+
 
 .img-description {
 	text-align: center;
@@ -120,7 +143,65 @@ li{
 	width: 35px;
 }
 
-@media only screen and (min-width:40em){
+@media only screen and (min-width:35em){
+
+.logo {
+	background-image: url(http://placehold.it/700x350);
+	padding-bottom: 50%;
+	background-size: cover;
+	position: relative;
+	z-index: -1;
+}
+
+.logo img {
+	width: 30%;
+	
+  }
+
+.nav-btn,
+.nav-btn:link,
+.nav-btn:visited {
+	display: none;
+}
+
+.nav-top {
+	display: block;
+	float: right;
+}
+
+.nav li{
+	display:inline-block;
+	float:none;
+	margin:0;
+	width:auto;	
+}
+
+.nav ul{
+	padding: 0;
+}
+
+.nav a, 
+.nav a:link,
+.nav a:visited{
+	border:0;
+}
+
+.about-me {
+	padding: 20px;
+}
+
+.hello {
+	padding-bottom: 5rem;
+}
+
+.about-desc{
+	text-align: left;
+}
+
+.work-h2 {
+	text-align: center;
+	padding-bottom: 5rem;
+}
 
 .down-arrow {
 	display: none;
@@ -128,12 +209,16 @@ li{
 
 .img-description{
 	display: block;
+	text-align: left;
 }
 
 .portfolio-img{
-	float: left;
-	padding: 0;
-	margin:0;
+	padding-right: 12px;
+	padding-bottom: 20px;
+}
+
+.work {
+	padding: 20px;
 }
 
 }
@@ -150,11 +235,21 @@ li{
 
 footer {
 	text-align: center;
-	padding-bottom: 10px;
+	padding-top: 10rem;
 }
 
 .social-icons {
 	list-style-type: none;
+}
+
+.social-icons li {
+	display: inline-block;
+	font-size: 4em;
+	padding-right: 40px;
+}
+
+.fa {
+	color: #FFF;
 }
 
 .js-social-animation {

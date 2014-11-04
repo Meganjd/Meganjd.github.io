@@ -1,7 +1,6 @@
 var $win = $(window);
 var $featureSection = $('.feature-section');
 var $socialSection = $('.social-section');
-var $shuttle = $('.shuttle')
 
 $win.on('scroll', function () { 
 	var scrollPos = $win.scrollTop();
