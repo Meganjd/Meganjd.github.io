@@ -43,6 +43,11 @@ header {
 	padding-bottom: 5rem;
 }
 
+.nav {
+  -webkit-transition: all 600ms cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition:         all 600ms cubic-bezier(0.215, 0.61, 0.355, 1); 
+}
+
 .nav-bar {
 	position: absolute;
 	width: 100%;
