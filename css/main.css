@@ -84,16 +84,10 @@ header {
 .nav a:focus,
 .nav a:active{
 	background-color: #ccc;
-
 }
 
 .nav ul {
 	padding: 50px 0 0 0;
-	-webkit-transition: height 0.3s ease-in;
-    -moz-transition: height 0.3s ease-in;
-    -o-transition: height 0.3s ease-in;
-    -ms-transition: height 0.3s ease-in;
-    transition: height 0.3s ease-in;
 }
 
 .nav-top{
@@ -336,20 +330,29 @@ footer {
 	padding-right: 40px;
 }
 
+.social {
+	width: 200px;
+	opacity: 0;
+	transform: translateY(100px);
+}
+
+.social-section {
+	background-size: cover;
+}
 
 .fa {
 	color: #FFF;
 }
 
 .js-social-animation {
-	-webkit-animation: shuttle-fade 1s linear forwards;
-	-moz-webkit-animation: shuttle-fade 1s linear forwards;
-	-o-webkit-animation: shuttle-fade 1s linear forwards;
-	-ms-webkit-animation: shuttle-fade 1s linear forwards;
-	animation: shuttle-fade 1s linear forwards;
+	-webkit-animation: social-fade 1s linear forwards;
+	-moz-webkit-animation: social-fade 1s linear forwards;
+	-o-webkit-animation: social-fade 1s linear forwards;
+	-ms-webkit-animation: social-fade 1s linear forwards;
+	animation: social-fade 1s linear forwards;
 }
 
-@-webkit-keyframes social-animation {
+@-webkit-keyframes social-fade {
 	0% {
 		opacity: 0;
 		transform: translateY(100px);
@@ -361,7 +364,7 @@ footer {
 	}
 }
 
-@-moz-webkit-keyframes social-animation {
+@-moz-webkit-keyframes social-fade {
 	0% {
 		opacity: 0;
 		transform: translateY(100px);
@@ -373,7 +376,7 @@ footer {
 	}
 }
 
-@-o-webkit-keyframes social-animation {
+@-o-webkit-keyframes social-fade {
 	0% {
 		opacity: 0;
 		transform: translateY(100px);
@@ -385,7 +388,7 @@ footer {
 	}
 }
 
-@-ms-webkit-keyframes social-animation {
+@-ms-webkit-keyframes social-fade {
 	0% {
 		opacity: 0;
 		transform: translateY(100px);
@@ -397,7 +400,7 @@ footer {
 	}
 }
 
-@keyframes social-animation {
+@keyframes social-fade {
 		0% {
 		opacity: 0;
 		transform: translateY(100px);
