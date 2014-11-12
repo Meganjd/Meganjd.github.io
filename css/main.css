@@ -99,7 +99,7 @@ header {
 }
 
 .logo {
-	background-image: url(http://placehold.it/700x500);
+	background-image: url ('../images/place-holder.jpg');
 	padding-bottom: 71.4%;
 	background-size: cover;
 	position: relative;
@@ -172,7 +172,7 @@ h2 {
 }
 
 .logo {
-	background-image: url(http://placehold.it/700x350);
+	background-image: url ('../images/place-holder.jpg');
 	padding-bottom: 50%;
 	background-size: cover;
 	position: relative;
