@@ -88,19 +88,25 @@ header {
 
 .nav ul {
 	padding: 50px 0 0 0;
+
 }
 
 .nav-top{
-	display:none;
+	max-height: 0;
+	-moz-transition: max-height 0.4s ease-out;
+	-webkit-transition: max-height 0.4s ease-out;
+	-o-transition: max-height 0.4s ease-out;
+	transition: max-height 0.4s ease-out;
 }
 
 .nav-top[data-state="expanded"] {
-	display: block;	
+	max-height: 20em
 }
 
 .logo {
-	background-image: url ('../images/place-holder.jpg');
+	background-image: url('../images/place-holder.jpg');
 	padding-bottom: 71.4%;
+	margin-top: -15px;
 	background-size: cover;
 	position: relative;
 }
@@ -147,10 +153,30 @@ header {
 
 .img-description {
 	text-align: center;
-	display: none;
+	max-height: 0;
+	-moz-transition: max-height 0.3s ease-out;
+	-webkit-transition: max-height 0.3s ease-out;
+	-o-transition: max-height 0.3s ease-out;
+	transition: max-height 0.3s ease-out;
 }
 
 .img-description[data-state="expanded"] {
+	max-height: 18em;
+}
+
+.img-description-left {
+	display: none;
+	text-align: center;
+	max-height: 0;
+	-moz-transition: max-height 0.3s ease-out;
+	-webkit-transition: max-height 0.3s ease-out;
+	-o-transition: max-height 0.3s ease-out;
+	transition: max-height 0.3s ease-out;
+	z-index: -2;
+}
+
+.img-description-left[data-state="expanded"] {
+	max-height: 18em;
 	display: block;
 }
 
@@ -172,7 +198,7 @@ h2 {
 }
 
 .logo {
-	background-image: url ('../images/place-holder.jpg');
+	background-image: ('../images/place-holder.jpg');
 	padding-bottom: 50%;
 	background-size: cover;
 	position: relative;
