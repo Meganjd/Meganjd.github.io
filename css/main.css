@@ -165,7 +165,6 @@ header {
 }
 
 .img-description-left {
-	display: none;
 	text-align: center;
 	max-height: 0;
 	-moz-transition: max-height 0.3s ease-out;
@@ -177,7 +176,6 @@ header {
 
 .img-description-left[data-state="expanded"] {
 	max-height: 18em;
-	display: block;
 }
 
 .down-arrow{
