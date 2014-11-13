@@ -97,6 +97,7 @@ header {
 	-webkit-transition: max-height 0.4s ease-out;
 	-o-transition: max-height 0.4s ease-out;
 	transition: max-height 0.4s ease-out;
+	overflow: hidden;
 }
 
 .nav-top[data-state="expanded"] {
@@ -158,6 +159,7 @@ header {
 	-webkit-transition: max-height 0.3s ease-out;
 	-o-transition: max-height 0.3s ease-out;
 	transition: max-height 0.3s ease-out;
+	overflow: hidden;
 }
 
 .img-description[data-state="expanded"] {
@@ -344,6 +346,11 @@ footer {
 	padding-top: 10rem;
 }
 
+.contact-h2 {
+	padding: 0;
+	margin: 0;
+}
+
 .social-icons {
 	list-style-type: none;
 }
@@ -355,7 +362,6 @@ footer {
 }
 
 .social {
-	width: 200px;
 	opacity: 0;
 	transform: translateY(100px);
 }
