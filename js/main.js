@@ -5,7 +5,7 @@ var $social = $('.social');
 
 $win.on('scroll', function () { 
 	var scrollPos = $win.scrollTop();
-
+console.log(scrollPos);
 
 	$featureSection.css('background-position','center ' + scrollPos / 3 + 'px');
 });

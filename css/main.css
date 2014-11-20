@@ -105,8 +105,12 @@ header {
 	max-height: 20em
 }
 
+.feature-section {
+	background: transparent url('../images/place-holder.jpg') no-repeat right bottom;
+	background-size: cover;
+}
+
 .logo {
-	background-image: url('../images/place-holder.jpg');
 	padding-bottom: 71.4%;
 	margin-top: -15px;
 	background-size: cover;
@@ -199,11 +203,10 @@ h2 {
 }
 
 .logo {
-	background-image: ('../images/place-holder.jpg');
 	padding-bottom: 50%;
 	background-size: cover;
 	position: relative;
-	z-index: -1;
+	z-index: 1;
 }
 
 .logo img {
