@@ -187,7 +187,6 @@ header {
 	-webkit-transition: max-height 0.3s ease-out;
 	-o-transition: max-height 0.3s ease-out;
 	transition: max-height 0.3s ease-out;
-	z-index: -2;
 	color: 2E2B2B;
 }
 
