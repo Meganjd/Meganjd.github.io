@@ -8,6 +8,7 @@
 	<link href="css/typography.css" rel="stylesheet">
 	<link href="css/grid.css" rel="stylesheet">
 	<link href="css/main.css" rel="stylesheet">
+	<link href="css/flexslider.css" rel="stylesheet">
 	<meta name="handheldfriendly" content="true">
 	<meta name="mobileoptimized" content="240">
 	<meta name="viewport" content="width=device-width,initial-scale=1" >
@@ -72,6 +73,32 @@
 		</div>
 	</div>
 
+	<div class="skills unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1">
+		<h2 class="skills-h2">My Skills</h2>
+			<ul class="skill-icons-list">
+				<li>
+					<img class="s-icon" src="images/skill-icon-1.svg">
+				</li>
+				
+				<li>
+					<img class="s-icon" src="images/skill-icon-2.svg">
+				</li>
+
+				<li>
+					<img class="s-icon" src="images/skill-icon-3.svg">
+				</li>
+
+				<li>
+					<img class="s-icon" src="images/skill-icon-4.svg">
+				</li>
+
+				<li>
+					<img class="s-icon" src="images/skill-icon-5.svg">
+				</li>
+
+			</ul>
+	</div>
+
 	<div class="work">
 
 		<h2 class="work-h2 yotta"><a name="Work">My Work.</a></h2>
@@ -80,7 +107,19 @@
 		
 		<!-- portfolio piece 0 start -->
 			<div class="portfolio-img unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-2-3">
-				<img src="http://placehold.it/600x500" alt="Title">
+				<div class="flexslider">
+ 					 <ul class="slides">
+    					<li>
+      						<img src="images/slide1.jpg" />
+    					</li>
+    					<li>
+      						<img src="images/slide2.jpg" />
+    					</li>
+    					<li>
+      						<img src="images/slide3.jpg" />
+    					</li>
+  					</ul>
+				</div>
 			</div>
 
 
@@ -211,6 +250,7 @@
 <script src="js/arrow.js"></script>
 <script src="js/waypoints.min.js"></script>
 <script src="js/main.js"></script>
+<script src="js/flexslider.js"></script>
 
 
 </html>

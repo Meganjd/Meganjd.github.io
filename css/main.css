@@ -142,6 +142,7 @@ header {
 .hello {
 	text-align: center;
 	color: #FFF;
+	padding-bottom: 5em;
 	
 }
 
@@ -149,6 +150,28 @@ header {
 	text-align: center;
 	padding: 10px;
 	color: #FFF;
+}
+
+.skills {
+	background-color: #FFF;
+	padding-top: 5rem;
+}
+
+.skills-h2 {
+	text-align: center;
+	padding-top: 2rem;
+	padding-bottom: 10rem;
+}
+
+.skill-icons-list {
+	display: inline-block;
+}
+
+.s-icons {
+	height: 50px;
+	width: 50px;
+	margin-right: 10px;
+	z-index: 100;
 }
 
 .work {
@@ -162,7 +185,7 @@ header {
 }
 
 .portfolio-sub-imgs {
-	display: none;
+	display: inline-block;
 }
 
 .img-description {
