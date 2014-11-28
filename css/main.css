@@ -102,7 +102,7 @@ header {
 }
 
 .nav-top[data-state="expanded"] {
-	max-height: 20em
+	max-height: 20em;
 }
 
 .feature-section {
@@ -136,19 +136,18 @@ header {
 .self-portrait {
 	display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+    width: 100%;
 }
 
 .hello {
 	text-align: center;
 	color: #FFF;
-	padding-bottom: 5em;
-	
 }
 
 .about-desc {
 	text-align: center;
-	padding: 10px;
+	padding: 0px 10px 0 10px;
 	color: #FFF;
 }
 
@@ -163,15 +162,14 @@ header {
 	padding-bottom: 10rem;
 }
 
-.skill-icons-list {
+.skill-icons-list, li {
 	display: inline-block;
 }
 
-.s-icons {
-	height: 50px;
-	width: 50px;
-	margin-right: 10px;
-	z-index: 100;
+.s-icon {
+	height: 12rem;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .work {
@@ -226,10 +224,17 @@ header {
 	color: #000;
 }
 
+.contact {
+	padding: 8px;
+}
+
 .contact-h2 {
 	color: #FFF;
 }
 
+.social-icons {
+	padding-top: 4rem;
+}
 /* medium */
 
 @media only screen and (min-width:38em){
@@ -296,9 +301,15 @@ h2 {
 }
 
 .hello {
-	text-align: left;
-	padding-left: 10px;
-	margin-bottom: -60px;
+	text-align: center;
+	margin-right: auto; 
+	margin-left: auto;
+}
+
+.self-portrait {
+ 	margin-right: auto;
+	margin-left: auto;
+	width: 75%;
 }
 
 .about-me {
@@ -307,8 +318,15 @@ h2 {
 }
 
 .about-desc{
-	margin-top: 5rem;
-	text-align: left;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: -5rem;
+}
+
+.s-icon {
+	height: 15rem;
+
 }
 
 .work-h2 {
