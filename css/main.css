@@ -89,6 +89,7 @@ header {
 
 .nav ul {
 	padding: 50px 0 0 0;
+	display: inline;
 
 }
 
@@ -138,6 +139,7 @@ header {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+    padding: 20px;
 }
 
 .hello {
@@ -163,7 +165,7 @@ header {
 }
 
 .skill-icons-list, li {
-	display: inline-block;
+	display: inline;
 }
 
 .s-icon {
@@ -309,7 +311,7 @@ h2 {
 .self-portrait {
  	margin-right: auto;
 	margin-left: auto;
-	width: 75%;
+	width: 60%;
 }
 
 .about-me {
@@ -379,18 +381,19 @@ h2 {
 
 @media only screen and (min-width:60em){
 
-	.hello{
-		padding: 0 0 0 10px;
-		margin: 0 0 -50px 50%;
-	}
-
 	.nav-top {
 		position: fixed;
 		float: right;
 	}
 
+	.hello{
+		margin: 0 0 -50px 50%;
+
+	}
+
 	.about-desc {
-		padding-right: 20rem;
+		padding: 10rem 2rem 0;
+		text-align: left;
 	}
 
 	.self-portrait {
