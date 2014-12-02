@@ -22,11 +22,13 @@ fieldset, pre, table {
 h1, .exa {
   font-size: 3.0518rem;
   line-height: 1.4746;
+  font-family: 'Muli', sans-serif;
 }
 
 h2, .peta {
   font-size: 2.4414rem;
   line-height: 1.2288;
+  font-family: 'Muli', sans-serif;
 }
 
 h3, .tera {

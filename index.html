@@ -5,14 +5,15 @@
 	<title>Megan Jessica · Graphic Designer · Ottawa, Canada</title>
 	<meta name="description" content="Megan Jessica, Designer, Graphic Designer, Ottawa, Canada">
 	
+	<link href="css/flexslider.css" rel="stylesheet">
 	<link href="css/typography.css" rel="stylesheet">
 	<link href="css/grid.css" rel="stylesheet">
 	<link href="css/main.css" rel="stylesheet">
-	<link href="css/flexslider.css" rel="stylesheet">
 	<meta name="handheldfriendly" content="true">
 	<meta name="mobileoptimized" content="240">
 	<meta name="viewport" content="width=device-width,initial-scale=1" >
 	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Muli:300,400' rel='stylesheet' type='text/css'>
 	<!-- Facebook meta tags -->
 	<meta property="og:type" content="article">
 	<meta property="og:title" content="Megan Jessica · Graphic Designer · Ottawa, Canada">
@@ -39,41 +40,51 @@
 	<header>
 
 		<div class="nav-bar">
-			<img src="http://placehold.it/100x50">
+			<img class="meganjessica" src="images/meganjessica.svg">
 			<a href="#nav" class="nav-btn hide-text">Navigate</a>
+
+			<div class-="nav-list">
+				<nav class="nav nav-top ease-all" data-state="collapsed"> 
+
+					<ul>
+						<li><a href="#About">about</a></li>
+						<li><a href="#Work">work</a></li>
+						<li><a href="#Contact">contact</a></li>
+						<li><a href="#top">top</a></li>
+					</ul>
+				</nav>
+			</div>
 		</div>
 
-		<div class-="nav-list">
-		<nav class="nav nav-top ease-all" data-state="collapsed"> 
-
-				<ul>
-					<li><a href="#About">About Me</a></li>
-					<li><a href="#Work">Work</a></li>
-					<li><a href="#Contact">Contact</a></li>
-					<li><a href="#top">Top</a></li>
-				</ul>
-		</nav>
-		</div>
+		
 
 		<section class="feature-section">
-		<h1 class="logo"><a name="top"><img src="images/logo.svg" alt="Megan Jessica, Designer"><a></h1>
+			<div class="triangle-bg">
+				<h1 class="logo"><a name="top"><img src="images/logo.svg" alt="Megan Jessica, Designer"></a></h1>
+			</div>
 		</section>
 		
 	</header>
  
-	<div class="about-me grid">
-		<h1 class="unit unit-xs-1 unit-s-1 unit-m-2-3 unit-offset-m-1-3 unit-l-1-2 unit-xl-1-2 hello yotta"><a name="About">Hello!</a></h1>
-
+	<div class="about-me grid grid-middle">
 		<div class="self-portrait unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-2 unit-xl-1-2">
-			<img src="images/selfie-bw.png" alt="Picture of Megan">
+			<a name="About"><img src="images/selfie-bw.png" alt="Picture of Megan"></a>
 		</div>
 
+		
+
 		<div class="unit unit-xs-1 unit-s-1 unit-m-2-3 unit-l-1-2 unit-xl-1-2 about-desc">
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus accumsan erat ligula, quis mollis leo cursus vitae. Nam at aliquam erat, et vestibulum ligula. Duis et ex vulputate, venenatis ipsum vitae, ornare est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat, lorem sit amet fringilla elementum, enim velit mattis diam, non accumsan sem eros at ipsum. Phasellus sagittis elit at dui suscipit, ut molestie tortor rhoncus. Integer congue tincidunt lacinia. Praesent a magna lobortis, finibus nunc eu, efficitur elit.</p>
+			<h1 class="hello yotta">Hello!</h1>
+			<p>I’m Megan. From a young age I was always experimenting with the arts, through painting,drawing, many failed 
+		attempts at sculpture and a piano lesson or two. Today, my passions lay in Illustration, User Experience Design, Brand Identity, Print Media, Typography 
+		and Package Design. When I’m not painting, doodling or designing you can find me out for a run with my dog or enjoying some veggie pizza 
+		with a beer in hand, usually in that order. </p>
 		</div>
 	</div>
 
+
 	<div class="skills unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1">
+		<div class="triangle-bg-ud">
 		<h2 class="skills-h2">My Skills</h2>
 			<ul class="skill-icons-list">
 				<li>
@@ -97,6 +108,7 @@
 				</li>
 
 			</ul>
+		</div>
 	</div>
 
 	<div class="work">
@@ -116,12 +128,11 @@
       						<img src="images/slide2.jpg" />
     					</li>
     					<li>
-      						<img src="images/slide3.jpg" />
+      						<img src="images/slide3.png" />
     					</li>
   					</ul>
 				</div>
 			</div>
-
 
 				<img src="images/down-arrow.svg" class="down-arrow" alt="Description Drop-down button" data-num="0">
 
@@ -134,8 +145,21 @@
 		<!-- portfolio piece 1 start -->
 				
 			<div class="portfolio-img unit unit-xs-1 unit-s-1 unit-m-1-2 unit-push-m-1-2 unit-l-2-3 unit-push-l-1-3">
-				<img src="http://placehold.it/600x500" alt="Title">
+				<div class="flexslider">
+ 					 <ul class="slides">
+    					<li>
+      						<img src="images/slide1.jpg" />
+    					</li>
+    					<li>
+      						<img src="images/slide2.jpg" />
+    					</li>
+    					<li>
+      						<img src="images/slide3.png" />
+    					</li>
+  					</ul>
+				</div>
 			</div>
+
 			<img src="images/down-arrow.svg" class="down-arrow" alt="Description Drop-down button" data-num="1">
 
 			<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-pull-m-1-2 unit-l-1-3 unit-pull-l-2-3 img-description  img-description-left" data-state="collapsed">
@@ -146,7 +170,19 @@
 			
 		<!-- portfolio piece 2 start -->
 			<div class="portfolio-img unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-2-3">
-				<img src="http://placehold.it/600x500" alt="Title">
+				<div class="flexslider">
+ 					 <ul class="slides">
+    					<li>
+      						<img src="images/slide1.jpg" />
+    					</li>
+    					<li>
+      						<img src="images/slide2.jpg" />
+    					</li>
+    					<li>
+      						<img src="images/slide3.png" />
+    					</li>
+  					</ul>
+				</div>
 			</div>
 
 				<img src="images/down-arrow.svg" class="down-arrow" alt="Description Drop-down button" data-num="2">
@@ -159,7 +195,19 @@
 
 		<!-- portfolio piece 3 start -->
 			<div class="portfolio-img unit unit-xs-1 unit-s-1 unit-m-1-2 unit-push-m-1-2 unit-l-2-3 unit-push-l-1-3">
-				<img src="http://placehold.it/600x500" alt="Title">
+				<div class="flexslider">
+ 					 <ul class="slides">
+    					<li>
+      						<img src="images/slide1.jpg" />
+    					</li>
+    					<li>
+      						<img src="images/slide2.jpg" />
+    					</li>
+    					<li>
+      						<img src="images/slide3.png" />
+    					</li>
+  					</ul>
+				</div>
 			</div>
 			<img src="images/down-arrow.svg" class="down-arrow" alt="Description Drop-down button" data-num="3">
 
@@ -171,7 +219,19 @@
 
 		<!-- portfolio piece 4 start -->
 			<div class="portfolio-img unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-2-3">
-				<img src="http://placehold.it/600x500" alt="Title">
+				<div class="flexslider">
+ 					 <ul class="slides">
+    					<li>
+      						<img src="images/slide1.jpg" />
+    					</li>
+    					<li>
+      						<img src="images/slide2.jpg" />
+    					</li>
+    					<li>
+      						<img src="images/slide3.png" />
+    					</li>
+  					</ul>
+				</div>
 			</div>
 
 				<img src="images/down-arrow.svg" class="down-arrow" alt="Description Drop-down button" data-num="4" >
@@ -184,7 +244,19 @@
 
 		<!-- portfolio piece 5 start -->
 			<div class="portfolio-img unit unit-xs-1 unit-s-1 unit-m-1-2 unit-push-m-1-2 unit-l-2-3 unit-push-l-1-3">
-				<img src="http://placehold.it/600x500" alt="Title">
+				<div class="flexslider">
+ 					 <ul class="slides">
+    					<li>
+      						<img src="images/slide1.jpg" />
+    					</li>
+    					<li>
+      						<img src="images/slide2.jpg" />
+    					</li>
+    					<li>
+      						<img src="images/slide3.png" />
+    					</li>
+  					</ul>
+				</div>
 			</div>
 			<img src="images/down-arrow.svg" class="down-arrow" alt="Description Drop-down button" data-num="5">
 
@@ -197,7 +269,19 @@
 
 		<!-- portfolio piece 6 start -->
 			<div class="portfolio-img unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-2-3">
-				<img src="http://placehold.it/600x500" alt="Title">
+				<div class="flexslider">
+ 					 <ul class="slides">
+    					<li>
+      						<img src="images/slide1.jpg" />
+    					</li>
+    					<li>
+      						<img src="images/slide2.jpg" />
+    					</li>
+    					<li>
+      						<img src="images/slide3.png" />
+    					</li>
+  					</ul>
+				</div>
 			</div>
 
 				<img src="images/down-arrow.svg" class="down-arrow" alt="Description Drop-down button" data-state="collapsed" data-num="6">
@@ -213,7 +297,8 @@
 	</div>
 
 </body>
-
+	
+	<div class="triangle-bg">
 	<footer>
 		<div class="contact">
 			<h2 class="contact-h2 zetta"><a name="Contact">Let's Work Together!</a></h2>
@@ -243,14 +328,16 @@
 
 		</div>
 	</footer>
+	</div>
 
 <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="js/nav.js"></script>
 <script src="js/scroll.js"></script>
 <script src="js/arrow.js"></script>
 <script src="js/waypoints.min.js"></script>
+<script src="js/jquery.flexslider-min.js"></script>
 <script src="js/main.js"></script>
-<script src="js/flexslider.js"></script>
+
 
 
 </html>

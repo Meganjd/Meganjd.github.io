@@ -19,7 +19,7 @@ html{
 
 
 body{
-	background-color: #2E2B2B;
+	background-color: #FFF;
 	margin: 0;
 	padding: 0;
 	font-family: sans-serif;
@@ -31,6 +31,10 @@ body{
 
 }
 
+p {
+	font-size: 12px;
+}
+
 li{
 	list-style-type: none;
 }
@@ -39,12 +43,15 @@ h2 {
 	text-align: center;
 }
 
-header {
-	padding-bottom: 5rem;
+.meganjessica {
+	height: 30px;
+	margin-left: 12px;
+	margin-top: 10px;
 }
 
 .nav-bar {
 	position: fixed;
+	height: 50px;
 	width: 100%;
 	background-color: rgba(60, 53, 56, 0.5);
 	z-index:4; 
@@ -60,10 +67,10 @@ header {
 .nav-btn,
 .nav-btn:link,
 .nav-btn:visited{
-	display: block;
-	position: fixed;
-	top: 10px;
-	right: 5%;
+	display: inline-block;
+	float: right;
+	margin-right: 15px;
+	margin-top: 8px;
 	height: 35px;
 	width: 35px;
 	background: url('../images/nav-button.svg') no-repeat center top;
@@ -73,6 +80,10 @@ header {
 .nav a,
 .nav a:link,
 .nav a:visited{
+	font-family: 'Muli', sans-serif;
+	text-decoration: none;
+	font-size: 20px;
+	font-variant: small-caps;
 	display: block;
 	padding: 1.5rem;
 	text-align: center;
@@ -88,9 +99,8 @@ header {
 }
 
 .nav ul {
-	padding: 50px 0 0 0;
+	padding: 45px 0 0 0;
 	display: inline;
-
 }
 
 .nav-top{
@@ -103,7 +113,7 @@ header {
 }
 
 .nav-top[data-state="expanded"] {
-	max-height: 20em;
+	max-height: 40em;
 }
 
 .feature-section {
@@ -111,9 +121,17 @@ header {
 	background-size: cover;
 }
 
+.triangle-bg {
+	background: transparent url('../images/triangle-bg-darkgrey.png') repeat-x right bottom;
+}
+
+.triangle-bg-ud {
+	background: transparent url('../images/triangle-bg-ud-darkgrey.png') repeat-x right top;
+}
+
 .logo {
 	padding-bottom: 71.4%;
-	margin-top: -15px;
+	margin: -15px 0 0;
 	background-size: cover;
 	position: relative;
 }
@@ -131,6 +149,7 @@ header {
 
 .about-me {
 	padding-bottom: 10rem;
+	background: #2E2B2B; 
 }
 
 
@@ -145,33 +164,40 @@ header {
 .hello {
 	text-align: center;
 	color: #FFF;
+	
 }
 
 .about-desc {
 	text-align: center;
-	padding: 0px 10px 0 10px;
+	padding: 10px 15px 0 15px;
 	color: #FFF;
 }
 
 .skills {
 	background-color: #FFF;
-	padding-top: 5rem;
 }
 
 .skills-h2 {
 	text-align: center;
-	padding-top: 2rem;
-	padding-bottom: 10rem;
+	padding-top: 10rem;
+	padding-bottom: 8rem;
 }
 
-.skill-icons-list, li {
-	display: inline;
+.skill-icons-list li {
+	display: inline-block; 
+	margin-left: auto;
+	margin-right: auto;
+	width: 125px;
+}
+
+.skill-icons-list {
+	text-align: center;
+	margin: 0;
+	padding: 0;
 }
 
 .s-icon {
-	height: 12rem;
-	margin-left: auto;
-	margin-right: auto;
+	height: 125px;
 }
 
 .work {
@@ -200,7 +226,7 @@ header {
 }
 
 .img-description[data-state="expanded"] {
-	max-height: 18em;
+	max-height: 22rem;
 }
 
 .img-description-left {
@@ -214,7 +240,7 @@ header {
 }
 
 .img-description-left[data-state="expanded"] {
-	max-height: 18em;
+	max-height: 22rem;
 }
 
 .down-arrow{
@@ -269,21 +295,14 @@ h2 {
 }
 
 .nav-top {
-	position: fixed;
-	display: block;
 	float: right;
 	z-index: 10;
-	position: relative;
 	overflow: visible;
-	padding-top: 1.5em;
-
+	margin-top: -50px;
 }
 
 .nav li{
-	display:inline-block;
-	float:none;
-	margin:0;
-	width:auto;	
+	display: inline-block;
 }
 
 .nav ul{
@@ -302,11 +321,6 @@ h2 {
 	color: #CCC;
 }
 
-.hello {
-	text-align: center;
-	margin-right: auto; 
-	margin-left: auto;
-}
 
 .self-portrait {
  	margin-right: auto;
@@ -381,18 +395,7 @@ h2 {
 
 @media only screen and (min-width:60em){
 
-	.nav-top {
-		position: fixed;
-		float: right;
-	}
-
-	.hello{
-		margin: 0 0 -50px 50%;
-
-	}
-
 	.about-desc {
-		padding: 10rem 2rem 0;
 		text-align: left;
 	}
 
@@ -421,6 +424,11 @@ h2 {
 		float: right;
 		height: 250px;
 		width: 250px;
+	}
+
+
+	.hello {
+		text-align: left;
 	}
 }
 
