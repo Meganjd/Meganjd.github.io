@@ -217,6 +217,10 @@ h2 {
 	margin:0px;
 }
 
+.flex-control-nav { 
+	display: none 
+}
+
 .img-description {
 	text-align: center;
 	max-height: 0;
