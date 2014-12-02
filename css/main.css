@@ -210,8 +210,11 @@ h2 {
 	color: 2E2B2B;
 }
 
-.portfolio-sub-imgs {
-	display: inline-block;
+.flexslider{
+	background:none;
+	border:none;
+	box-shadow:none;
+	margin:0px;
 }
 
 .img-description {
@@ -246,6 +249,13 @@ h2 {
 .down-arrow{
 	height: 35px;
 	width: 35px;
+}
+
+.arrow-div {
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 5rem;
 }
 
 .test {
