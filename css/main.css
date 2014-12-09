@@ -25,11 +25,13 @@ body{
 	font-family: sans-serif;
 }
 
+
 .grid img {
   width: 100%;
   margin: 0 auto;
 
 }
+
 
 p {
 	font-size: 12px;
@@ -446,6 +448,11 @@ h2 {
 
 	.hello {
 		text-align: left;
+	}
+
+	.four-oh-four {
+  	height: 50%;
+  	margin-right: 25%;
 	}
 }
 
