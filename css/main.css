@@ -45,6 +45,16 @@ h2 {
 	text-align: center;
 }
 
+
+.404 a,
+.404 a:link,
+.404 a:visited{
+	font-family: 'Muli', sans-serif;
+	text-align: center;
+	text-decoration: none;
+
+}
+
 .meganjessica {
 	height: 30px;
 	margin-left: 12px;
