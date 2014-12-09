@@ -200,6 +200,7 @@ h2 {
 
 .s-icon {
 	height: 125px;
+	padding-left: 5px;
 }
 
 .work {
@@ -357,10 +358,10 @@ h2 {
 	padding-top: -5rem;
 }
 
-.s-icon {
+/*.s-icon {
 	height: 15rem;
 
-}
+}*/
 
 .work-h2 {
 	text-align: center;
