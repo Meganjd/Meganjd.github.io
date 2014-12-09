@@ -117,7 +117,7 @@ h2 {
 }
 
 .feature-section {
-	background: transparent url('../images/place-holder.jpg') no-repeat right bottom;
+	background: transparent url('../images/banner-img.png') no-repeat right bottom;
 	background-size: cover;
 }
 
@@ -424,6 +424,13 @@ h2 {
 
 	}
 
+	.portfolio-img {
+		height: 700px;
+		width: 700px;
+		padding-left: 5rem;
+		padding-right: 0;
+	}
+
 	.img-description {
 		padding-right: 10rem;
 		overflow: visible;
@@ -432,16 +439,8 @@ h2 {
 
 	.img-description-left {
 		padding-right: 10px;
-		padding-left: 10rem;
 		overflow: visible;
 		color: #2E2B2B;
-	}
-
-	.portfolio-sub-imgs {
-		display: block;
-		float: right;
-		height: 250px;
-		width: 250px;
 	}
 
 
@@ -450,12 +449,14 @@ h2 {
 	}
 }
 
+.triangle-bg-foot {
+	background: transparent url('../images/triangle-bg-darkgrey.png') repeat-x right top;
+}
 
 footer {
 	text-align: center;
 	padding-top: 5rem; 
-	background-color: #2E2B2B;
-	bottom: 0;
+	background-color: #8F0047;
 }
 
 .contact-h2 {
